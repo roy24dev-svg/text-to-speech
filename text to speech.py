@@ -6,7 +6,7 @@ def text_to_speech(text):
 
     # Set properties 
     engine.setProperty('rate', 150)     # Speed of speech
-    engine.setProperty('volume', 1.0)   # Volume (0.0 to 1.0)
+    engine.setProperty('volume', 1.0)   # Volume of speech
 
     # Speak the text
     engine.say(text)
